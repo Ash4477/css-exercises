@@ -49,3 +49,33 @@ html {
   background-color: #393f4d;
   grid-column: 1 / 3;
 }
+
+/* My Work */
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  grid-template-rows: 1fr 1fr 7fr 1fr;
+  grid-template-areas: 
+  "header header"
+  "sidebar nav"
+  "sidebar article"
+  "footer footer";
+  gap: 15px;
+}
+
+.header {
+  grid-area: "header";
+}
+.footer {
+  grid-area: "footer";
+}
+.article {
+  grid-area: "article";
+}
+.sidebar {
+  grid-area: "sidebar";
+}
+.nav{
+  grid-area: "nav";
+}
