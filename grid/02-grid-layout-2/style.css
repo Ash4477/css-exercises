@@ -65,17 +65,17 @@ html {
 }
 
 .header {
-  grid-area: "header";
+  grid-area: header;
 }
 .footer {
-  grid-area: "footer";
+  grid-area: footer;
 }
 .article {
-  grid-area: "article";
+  grid-area: article;
 }
 .sidebar {
-  grid-area: "sidebar";
+  grid-area: sidebar;
 }
 .nav{
-  grid-area: "nav";
+  grid-area: nav;
 }
